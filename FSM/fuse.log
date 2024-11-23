@@ -1,0 +1,24 @@
+Running: /opt/xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/jam/Downloads/fsm_tbw/FSM/tb_FSM_isim_beh.exe -prj /home/jam/Downloads/fsm_tbw/FSM/tb_FSM_beh.prj work.tb_FSM 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/jam/Downloads/fsm_tbw/FSM/FSM.vhd" into library work
+Parsing VHDL file "/home/jam/Downloads/fsm_tbw/FSM/tb_FSM.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 84372 KB
+Fuse CPU Usage: 1340 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity FSM [fsm_default]
+Compiling architecture behavior of entity tb_fsm
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable /home/jam/Downloads/fsm_tbw/FSM/tb_FSM_isim_beh.exe
+Fuse Memory Usage: 1181060 KB
+Fuse CPU Usage: 1400 ms
+GCC CPU Usage: 1980 ms
